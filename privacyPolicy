@@ -1,31 +1,44 @@
 Datenschutzinformation für die App ViewExplorAR
 
-Stand: 06.10.2023
+Stand: 25.10.2023
 
-Vielen Dank, dass Sie unsere ViewExplorAR App verwenden. Ihre Privatsphäre ist uns sehr wichtig, und wir möchten sicherstellen, dass Sie verstehen, welche Daten wir sammeln, wie wir sie verwenden und schützen. Bitte lesen Sie diese Datenschutzinformation sorgfältig durch.
+Kurzbeschreibung der App:
+Ziel der App ist es, dem Nutzer, durch Überlagerung von Aussichts-Kamerabildern, zusätzliche Informationen über die Aussicht zu bekommen, die er gerade vor sich hat. 
+Hierfür gibt es zwei Möglichkeiten:
+ - Kostenlos: Erstellen eines neuen Aussichtsbildes und darauf eine sogenannte Landmarke definieren, welche auch auf einer Landkarte markiert werden muss. Dieser eine Punkt reicht aus um alle Punkte auf dem Bild einer Position in der realen Welt zuzuordnen.
+ - Nicht kostenlos: Für Leute die keine Informationen über die Aussicht haben können Aussichtsbilder verwenden, welche eine andere Person bereits mit einer Landmarke markiert hat.
+
+Vielen Dank, dass Sie unsere ViewExplorAR App verwenden. Ihre Privatsphäre ist uns sehr wichtig, und wir möchten sicherstellen, dass Sie verstehen, welche Daten wir sammeln, wie wir sie verwenden und schützen. 
+Bitte lesen Sie diese Datenschutzinformation sorgfältig durch.
 
 1. Welche Daten sammeln wir?
 
 Unsere App verwendet die folgenden Daten, um bestimmte Funktionen bereitzustellen:
 
 a. Kamerabilder: Die App kann auf die Kamera Ihres Endgeräts zugreifen.
-
 b. Standortdaten: Die App kann Ihren Standort über GPS ermitteln.
-
 c. Internetverbindung: Die App erfordert eine Internetverbindung für den down- und upload von Daten.
+d. Geräte-Adresse: Jedes mobile Endgerät besitzt eine Geräte-Adresse, welche durch die App ausgelesen wird
 
 2. Wie verwenden wir Ihre Daten?
 
 Wir verwenden die gesammelten Daten nur zu folgenden Zwecken:
 
 a. Kamerabilder: Die App kann auf die Kamera Ihres Endgeräts zugreifen, um folgende Funktionen zu ermöglichen:
-  -  Kamerabild anzeigen um damit Augmented Reality Funktionen zu ermöglichen
-  -  Kamerabilder aufnehmen um sie gelabelt als sogenannte "Landmarks" in der App zu verwenden. Diese "Landmarks" werden auf einem Server gespeichert um sie dann mit anderen Nutzern der App zu teilen. Somit kann jedem Nutzer ein schnelles Orientieren in unbekannten Gebieten ermöglicht werden.
+  - Das Bild wird verwendet um damit eine Maske zu generieren, welche Mehrinformation zur Orientierung über das Kamerabild legen soll
 
-b. Standortdaten: Die App kann Ihren Standort über GPS ermitteln, um über die eigene Position die passende Augmented Reality Einblendungen (Orte zu Orientierung im Kamerabild einblenden) zu ermöglichen.
+b. Standortdaten: Die App kann Ihren Standort über GPS ermitteln, um folgende Funktionen zu ermöglichen:
+  - Zur Erstellung der Maske über dem Aussichtsbild, wird unter anderem der eigene Standort sowie die gelabelte Landmarke verwendet. Ohne den eigenen Standort ist eine korrekte Maskengenerierung daher nicht möglich.
 
-c. Internetverbindung: Die App erfordert eine Internetverbindung, um Höhenprofile sowie Informationen zu Orte, die für den Nutzer von Interesse sind, herunterzuladen. Ebenso wird die Internetverbindung benötigt um die Landmarken auf einen Server hochzuladen, damit diese für andere Nutzer nutzbar werden.
+c. Internetverbindung: Die App erfordert eine Internetverbindung, um folgende Funktionen zu ermöglichen:
+  - Herunterladen von Höhenprofilen (OpenStreetMap) und Orientierungsdaten (Overpass API)
+  - Herunterladen von bereits generierten Bildern und deren Maskeninformation
+  - Hochladen von gelabelten Bildern und deren Maskeninformation
+  - Hoch- und Runterladen von Reviews
 
+d. Geräte-Adresse: Die App erfordert die Geräte-Adresse um folgende Funktion zu ermöglichen:
+  - Hochgeladene Bilder werden untersucht bevor diese für andere Nutzer zugänglich gemacht werden. Da der Nutzer bei dem generieren von neuen Bildern die Nutzungsbedingungen einhalten soll, wird bei einer missbräuchlichen Upload von Bildern durch die Geräte Adresse eine Möglichkeit geschaffen die Bilder vorzusortieren.
+  
 3. Datenschutz und Sicherheit
 
 Wir nehmen den Schutz Ihrer Daten ernst und ergreifen angemessene technische und organisatorische Maßnahmen, um Ihre Daten zu schützen. Wir speichern und verarbeiten Ihre Daten nur so lange, wie es für die oben genannten Zwecke erforderlich ist.
