@@ -15,6 +15,7 @@ a. Camera Images: The app can access the camera on your device.
 b. Location Data: The app can determine your location via GPS.
 c. Internet Connection: The app requires an internet connection to download and upload data.
 d. Device Address: Each mobile device has a device address, which is read by the app.
+e. PhoneType
 
 How Do We Use Your Data?
 We use the collected data only for the following purposes:
@@ -28,6 +29,7 @@ c. Internet Connection: The app requires an internet connection to enable the fo
  - Uploading and downloading reviews.
 d. Device Address: The app requires the device address to enable the following function:
  - Uploaded images are examined before they are made accessible to other users. Since users are supposed to comply with the terms of use when generating new images, the device address provides a way to pre-sort images in case of abusive uploads.
+e. PhoneType: The app requires phonetypes to obtain statistics about phoneType dependencies on image/mask qualities
 
 Data Protection and Security
 We take the protection of your data seriously and implement appropriate technical and organizational measures to protect your data. We store and process your data only as long as it is required for the purposes mentioned above.
