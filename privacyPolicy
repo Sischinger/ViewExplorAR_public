@@ -1,11 +1,12 @@
 Effective Date: October 25, 2023
 
-Short Description of the App:
-The purpose of the ViewExplorAR app is to overlay camera images of the view with additional information about the scenery. There are two options available:
+Thank you for using our <APPNAME> app. Your privacy is of utmost importance to us, and we want to ensure that you understand what data we collect, how we use it, and how we protect it. Please read this privacy policy carefully.
 
-Free: Create a new view image and define a so-called landmark on it, which must also be marked on a map. This one point is sufficient to assign all points in the image a position in the real world.
+Short Description of the App:
+The purpose of the <APPNAME> app is to overlay camera images of views all around the globe with additional information about the scenery. There are two options available:
+
+Free: Create a new view image and define a so-called landmark on it, which must also be marked on a map. This one point is sufficient to assign all points in the image a position in the real world. Users that want to use the service for free accept in return that their labeled images are published for other users to used.
 Paid: For individuals who do not have information about the view, they can use view images that have already been marked with a landmark by another person.
-Thank you for using our ViewExplorAR app. Your privacy is of utmost importance to us, and we want to ensure that you understand what data we collect, how we use it, and how we protect it. Please read this privacy policy carefully.
 
 What Data Do We Collect?
 Our app uses the following data to provide specific features:
@@ -18,21 +19,16 @@ d. Device Address: Each mobile device has a device address, which is read by the
 How Do We Use Your Data?
 We use the collected data only for the following purposes:
 
-a. Camera Images: The app can access the camera on your device to enable the following functions:
-
-The image is used to generate a mask that lays additional information over the camera image for orientation.
-b. Location Data: The app can determine your location via GPS to enable the following functions:
-
-To create the mask over the view image, the user's own location as well as the labeled landmark are used. Correct mask generation is therefore not possible without the user's own location.
+a. Camera Images: Camera images are used to generate a mask that lays additional information over the camera image for orientation.
+b. Location Data: The app can determine your location via GPS to create the mask over the view image. To create the mask, the user's own location as well as the labeled landmark is used. Correct mask generation is therefore not possible without the user's own location.
 c. Internet Connection: The app requires an internet connection to enable the following functions:
-
-Downloading elevation profiles (OpenStreetMap) and orientation data (Overpass API).
-Downloading previously generated images and their mask information.
-Uploading labeled images and their mask information.
-Uploading and downloading reviews.
+ - Downloading elevation profiles (OpenStreetMap) and orientation data (Overpass API).
+ - Downloading previously generated images and their mask information.
+ - Uploading labeled images and their mask information.
+ - Uploading and downloading reviews.
 d. Device Address: The app requires the device address to enable the following function:
+ - Uploaded images are examined before they are made accessible to other users. Since users are supposed to comply with the terms of use when generating new images, the device address provides a way to pre-sort images in case of abusive uploads.
 
-Uploaded images are examined before they are made accessible to other users. Since users are supposed to comply with the terms of use when generating new images, the device address provides a way to pre-sort images in case of abusive uploads.
 Data Protection and Security
 We take the protection of your data seriously and implement appropriate technical and organizational measures to protect your data. We store and process your data only as long as it is required for the purposes mentioned above.
 
