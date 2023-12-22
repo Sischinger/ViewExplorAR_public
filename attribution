@@ -1,0 +1,35 @@
+Attribution for Third-Party Services Used in This Project
+
+1. **Nominatim:**
+
+   The geocoding service Nominatim is used in this project.
+   
+   © OpenStreetMap contributors
+   
+   [Nominatim Usage Policy](https://operations.osmfoundation.org/policies/nominatim/)
+
+2. **OpenStreetMap (OSM):**
+
+   This project uses data from OpenStreetMap.
+
+   © OpenStreetMap contributors
+
+   [OpenStreetMap Contributors](https://www.openstreetmap.org/copyright)
+
+   [OpenStreetMap License (ODbL)](https://opendatacommons.org/licenses/odbl/)
+
+3. **Opentopodata:**
+
+   Elevation data is provided by Opentopodata.
+
+   © OpenTopoMap
+   
+   [OpenTopoMap Attribution](https://opentopomap.org/about#verwendung)
+
+4. **Overpass API:**
+
+   The Overpass API is used for querying OpenStreetMap data.
+
+   © OpenStreetMap contributors
+
+   [Overpass API Usage Policy](https://wiki.openstreetmap.org/wiki/Overpass_API/Acceptable_Use_Policy)
